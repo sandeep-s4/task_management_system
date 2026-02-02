@@ -13,7 +13,9 @@ This project runs on **Tomcat 10** with **Jakarta Servlet 6** and uses **Java 17
 ## PostgreSQL Configuration
 
 1. Create a database:
-`CREATE DATABASE task-management-db;`
+```sql
+CREATE DATABASE task-management-db;
+```
 
 2. Update database properties in:
 `src/main/resources/META-INF/persistence.xml`
