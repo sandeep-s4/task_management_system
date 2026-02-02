@@ -19,6 +19,7 @@ This project runs on **Tomcat 10** with **Jakarta Servlet 6** and uses **Java 17
 `src/main/resources/META-INF/persistence.xml`
 
 #### Example:
+
 <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/task-management-db"/>
 <property name="jakarta.persistence.jdbc.user" value="yourusername"/>
 <property name="jakarta.persistence.jdbc.password" value="yourpassword"/>
